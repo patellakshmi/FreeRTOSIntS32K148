@@ -1,0 +1,16 @@
+-c
+-I"C:/Users/lakshmipatel/workspaceS32DS.ARM.2.2/FreeRTOSWithS32K148/include"
+-I"C:/Users/lakshmipatel/workspaceS32DS.ARM.2.2/FreeRTOSWithS32K148/ThirdParty/SEGGER/SEGGER/Syscalls"
+-I"C:/Users/lakshmipatel/workspaceS32DS.ARM.2.2/FreeRTOSWithS32K148/ThirdParty/SEGGER/OS"
+-I"C:/Users/lakshmipatel/workspaceS32DS.ARM.2.2/FreeRTOSWithS32K148/ThirdParty/SEGGER/Config"
+-x assembler-with-cpp
+-DTURN_ON_CPU0
+-DSEMIHOSTING
+-g3
+-mcpu=cortex-m4
+-mthumb
+-mfloat-abi=hard
+-mfpu=fpv4-sp-d16
+-specs=nano.specs
+-specs=nosys.specs
+--sysroot="D:/My Software/S32DS/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/arm-none-eabi/newlib"
